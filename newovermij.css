@@ -1,0 +1,83 @@
+body {
+  background-color: #D9D9D9;
+}
+
+footer {
+  background-color: #D9D9D9;
+  color: white;
+  border-top-style: solid;
+  border-width: 5px;
+  border-color: #4484CE;
+}
+
+
+
+i {
+  color: #4484CE;
+}
+
+i:hover {
+  color: #F19F4D;
+}
+
+.custom-navbar {
+  background-color: #4484CE;
+}
+
+.custom-navbar a {
+  color: white;
+}
+
+.navbar-nav {
+  margin: auto;
+}
+
+.navbar-nav .active a {
+  background-color: #F19F4D;
+  border-radius: 60%;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+  padding: 10px;
+}
+
+
+.navbar-nav .nav-item {
+  margin: 0 15px;
+}
+
+/* Hover effect for navbar items */
+.navbar-nav .nav-item a {
+  transition: opacity 0.3s ease-in-out; /* Define the transition property */
+}
+
+.navbar-nav .nav-item a:hover {
+  opacity: 0.7; /* Adjust the opacity value as needed for the desired fade effect */
+  color: #F19F4D;
+}
+
+.navbar-nav .active a:hover {
+  color: white;
+}
+
+.btn-custom {
+  background-color: #4484CE; /* Standaard kleur */
+  border-color: #4484CE; /* Standaard randkleur */
+  color: #fff; /* Tekstkleur wit */
+  transition: background-color 0.3s, border-color 0.3s; /* Smooth transition for color change */
+}
+.btn-custom:hover {
+  background-color: #F19F4D; /* Kleur bij hover */
+  border-color: #F19F4D; /* Randkleur bij hover */
+  color: #fff; /* Zorg ervoor dat de tekstkleur wit blijft */
+}
+.btn-custom a {
+  color: inherit; /* Zorg ervoor dat de tekstkleur de kleur van de knop erft */
+  text-decoration: none; /* Verwijder de onderstreping van de link */
+}
+
+.lispecial {
+  border-left-style: solid;
+  border-color: #F19F4D;
+  list-style: none;
+  padding-left: 5px;
+}
